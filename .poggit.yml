@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/armagadon159753/Ultimate-Kit
+branches:
+- master
+projects:
+  Ultimate-Kit:
+    path: ""
+...
