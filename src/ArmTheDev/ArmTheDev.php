@@ -31,7 +31,7 @@ class ArmTheDev extends PluginBase implements Listener{
   public function onJoin(PlayerJoinEvent $event){
     $player = $event->getPlayer();
     $player->sendPopup('kit du demon');
-    $player->getInventory()->addItem(Item::get(288, 0, 1));
+    $player->getInventory()->addItem(Item::get(388, 0, 1));
   }
 
   public function onTouch(PlayerInteractEvent $event){
